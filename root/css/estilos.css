@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Varela+Round&display=swap');
+/* font-family: 'PT Serif', serif;
+font-family: 'Varela Round', sans-serif; */
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'PT Serif', serif;
+    color:aliceblue;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 80px;
+    width: auto;
+    background-color: #393E46;
+    font-size: 22px;
+    padding: 20px;
+}
+ul li{
+    display: inline-block;
+    height: 40px;
+    margin-top: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: #F2E7D5;
+    background-color: #393E46;
+    border:  #677fa7;
+    padding: 10px;
+    margin: 10px;
+    border-style: outset;
+    border-width: 5px;
+}
+ul li a:hover{
+    background-color: #F2E7D5;
+    color: purple;
+}
+header a img{
+    height: 50px;
+    width: auto;
+    margin: 20px;
+    border-style: outset;
+    border:  #677fa7;
+    padding: 10px;
+    margin: 10px;
+    border-width: 5px;
+    float: left;
+}
+fieldset a{
+    background-color: #393E46;
+}
+p {
+    width: auto;
+    height: 300px;
+    overflow: scroll;
+    color:#F2E7D5;
+    background-color: #393E46;
+    font-weight: lighter;
+    font-family: 'Varela Round', sans-serif;
+    font-style: italic;
+    text-align: center;
+    position: center;
+    padding: 30px 70px 50px 50px;
+
+}
+a img{
+    height: 20px;
+    width: auto;
+}
+main {
+    height: calc(100vh - 80px);
+    width: 100%;
+    background-color: #333;
+    background-image: url(../images/monitor.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.img1{
+    height: 450px;
+    width: 100%;
+    background-color: #F2E7D5;
+    background-image: url(../images/monitor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+#up{
+    height: 40px;
+    width: 40px;
+    background-color: #2b579e;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+}
+#hobbies{
+    background-color: #393E46;
+}
+footer {
+    text-align: center;
+    font-size: 30px;
+    background-color: #677fa7;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 20px;
+}
+footer p {
+    margin-bottom: 20px;
+}
+.redes a{
+    color:  #2b579e;
+    font-size: 50px;
+    letter-spacing: 30px;
+}
